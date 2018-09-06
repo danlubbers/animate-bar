@@ -11,9 +11,20 @@ class App extends Component {
           <h1>Simple Progress Bar</h1>
           <div className='bar'></div>
         </div>
+
           <br />
+
         <div className='animation-2'>
           <i><FaPlus className='plus'/></i>
+        </div>
+
+          <br />
+
+        <div className='animation-3'>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
     );
