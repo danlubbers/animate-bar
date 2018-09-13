@@ -26,6 +26,8 @@ class App extends Component {
           <div></div>
           <div></div>
         </div>
+
+        <span className='animation-4'></span>
       </div>
     );
   }

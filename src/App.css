@@ -42,10 +42,10 @@
 .animation-2 .plus{
   color: #fff;
   font-size: 32px;
-  animation: anim 2s infinite;
+  animation: anim1 2s infinite;
 }
 
-@keyframes anim {
+@keyframes anim1 {
   0% {
     padding: 20px;
   }
@@ -106,5 +106,27 @@
   }
   100% {
     opacity: .4;
+  }
+}
+
+/* Animation 4 */
+
+.animation-4 {
+  width: 50px;
+  height: 50px;
+  background-color: #f04f50;
+  border-radius: 10px;
+  animation: anim2 2s ease-in-out infinite;
+}
+
+@keyframes anim2 {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(100px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
   }
 }
